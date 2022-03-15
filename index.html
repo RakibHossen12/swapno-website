@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>Shwapno | Shop Online</title>
+
+		<!-- File links -->
+		<script src="main.js"></script>
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- Other file, fonts -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav id="navbar">
+			<span class="logo-big">Shwapno</span>
+
+			<ul>
+				<li><a href="./index.html#home">Home</a></li>
+				<li><a href="#top-products">Top</a></li>
+				<li><a href="#offers">Offers</a></li>
+				<li><a href="./branch-page.html">Branches</a></li>
+				<li><a href="#about">About</a></li>
+
+				<button class="btn"><a href="./products-page.html">Shop Now</a></button>
+			</ul>
+
+
+			<i class="fas fa-bars toggle-btn" onclick="toggle()"></i>
+		</nav>
+
+		<div class="home" id="home">
+			<h1>Welcome to <span class="logo">Shwapno</span></h1>
+			<h2>We provide the freshest product and vegetables</h2>
+			<p>Good food for money. Best product for value</p>
+
+			<br>
+			<button class="btn" ><a href="#">Shop Now</a></button>
+		</div>
+
+		<div class="top-products" id="top-products">
+			<h1 class="heading">Our top products</h1>
+			<br>
+			<div class="products-box">
+				<div class="product-item product-1 box-item">
+					<h3>Potatoes</h3>
+
+					<img src="https://media.istockphoto.com/photos/three-potatoes-picture-id157430678?k=20&m=157430678&s=612x612&w=0&h=dfYLuPYwA50ojI90hZ4jCgKZd5TGnqf24UCVBszoZIA=" alt="Potatoes">
+
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+					<button class="btn"><a href="#">Buy Now</a></button>
+				</div>
+
+				<div class="product-item product-2 box-item">
+					<h3>Onion</h3>
+
+					<img src="https://media.istockphoto.com/photos/red-onions-picture-id499146498?k=20&m=499146498&s=612x612&w=0&h=fe8fftS2SpmSlx_KAT_wOPIhlwO9SFelIwq0nmG8NmA=" alt="Onion">
+
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+					<button class="btn"><a href="#">Buy Now</a></button>
+				</div>
+
+				<div class="product-item product-3 box-item">
+					<h3>Fresh Beef</h3>
+
+					<img src="https://chaldn.com/_mpimage/bengal-meat-beef-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D73901&q=low&v=1" alt="Fresh Beef">
+
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+					<button class="btn"><a href="#">Buy Now</a></button>
+				</div>
+			</div>
+			<br>
+			<button class="btn">Show All Products</button>
+		</div>
+
+		<div class="offers" id="offers">
+			<h1 class="heading">Our best offers</h1>
+			<br>
+			<p>Click on <a href="#">sign up</a> or <a href="#">login</a>(if you already have one) to get best offer emails</p>
+			<br>
+			<div class="offers-box">
+				<div class="offer-item offer-1 box-item-2">
+					<img src="https://static.vecteezy.com/system/resources/previews/002/114/363/original/discount-up-to-30-off-special-offer-logo-template-design-illustration-vector.jpg" alt="30% Discount">
+
+					30% Discount<br>30% Discount On 3000TK Shoping!
+
+					<button class="btn"><a href="#">Shop Now</a></button>
+				</div>
+
+				<div class="offer-item offer-2 box-item-2">
+					<img src="https://thumbs.dreamstime.com/b/vector-illustration-buy-get-free-sale-tag-banner-design-speech-bubble-template-vector-illustration-cool-buy-get-free-sale-tag-136700875.jpg" alt="Buy 1 get 1 free">
+
+					Buy 1 get 1 free!<br>Buy 1 pillow cover and get 1 free!
+
+					<button class="btn"><a href="#">Shop Now</a></button>
+				</div>
+
+				<div class="offer-item offer-3 box-item-2">
+					<img src="https://media.istockphoto.com/photos/fifteen-percent-off-shaped-price-label-picture-id483822187?k=20&m=483822187&s=612x612&w=0&h=s__zgV4uc6JUYZsIxdIbY5S1evBFsHzUptOvSflCjGc=" alt="15% Discount">
+
+					15% Discount<br>15% Discount On 1500TK Shoping!
+
+					<button class="btn"><a href="#">Shop Now</a></button>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="branches" id="branches">
+			<h1 class="heading">Our Branches</h1>
+			<br>
+			<div class="branch-box">
+				<div class="branch branch-1 box-item-2">
+					<h2>Dhanmondi Main Branch(World University)</h2>
+					<p>21/A Central Road, Dhanmondi, Dhaka 1204, Bangladesh</p>
+					<img src="./main-branch.jpg">
+				</div>
+	
+				<div class="branch branch-2 box-item-2">
+					<h2>Framget Branch(Asian University)</h2>
+					<p>83 Framget Road, Dhanmondi, Dhaka 1206, Bangladesh</p>
+					<img src="./main-branch.jpg">
+				</div>
+	
+				<div class="branch branch-3 box-item-2">
+					<h2>Gulshan Branch(Brac University)</h2>
+					<p>34 Brac University Road, Dhanmondi, Dhaka 1210, Bangladesh</p>
+					<img src="./main-branch.jpg">
+				</div>
+			</div>
+			<br>
+			<button class="btn"><a href="./branch-page.html">Show All Branch</a></button>
+		</div>
+
+		<div class="about" id="about">
+			<div class="about-box">	
+				<h1 class="heading">About Us</h1>
+				<div class="about-text">
+					<p>
+						<span class="logo-8">Swapno</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem eum debitis repellendus soluta illo nam, excepturi, obcaecati cumque odit quos saepe sapiente enim voluptate nulla laborum? Aperiam, eaque, laborum!
+					</p>
+				</div>				
+			</div>
+
+			<div class="end-icons">
+				<div class="first-end">
+					<i class="fa-solid fa-envelope"></i>
+					<i class="fa-brands fa-whatsapp-square"></i><i class="fa-brands fa-facebook-square"></i>
+				</div>
+				<div class="number">
+					<i class="fa-solid fa-phone"></i>
+					0000-0000-000
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
